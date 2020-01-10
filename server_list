@@ -1,2 +1,2 @@
-# id, index, domain_ip, port, path, secure
+# id, domain_ip, port, path, secure
 1,evomed.vn,9001,/,True
