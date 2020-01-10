@@ -1,2 +1,3 @@
 # id, domain_ip, port, path, secure
-2,evomed.vn,9001,/,True
+# id 1 for default server
+2, evomed.vn, 9001, /, True
