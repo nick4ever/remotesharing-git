@@ -1,0 +1,40 @@
+<div class="Sys_DialogContainer">
+    <style>
+        body .Sys_DialogContainer {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: none;
+        }
+        body .Sys_DialogOverlay {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            cursor: default;
+        }
+        body @dialogFrame {
+            position: absolute;
+            box-sizing: border-box;
+            cursor: default;
+            overflow: hidden;
+        }
+    </style>
+    <vbox anon-id="dialogFrame" class="DialogFrame" tabindex="0">
+        <hbox anon-id="dialogHeaderPane">
+            <div flex="1" anon-id="dialogTitleContainer">
+                <strong anon-id="dialogTitle">Dialog Title</strong>
+                <span anon-id="dialogSubTitle"></span>
+            </div>
+            <i anon-id="dialogClose" sys-icon="close"></i>
+        </hbox>
+        <vbox flex="1" anon-id="dialogBody">
+        </vbox>
+        <hbox anon-id="dialogFooter">
+            <hbox anon-id="dialogFooterStartPane"></hbox>
+            <hbox anon-id="dialogFooterMiddlePane" flex="1"></hbox>
+            <hbox anon-id="dialogFooterEndPane"></hbox>
+        </hbox>
+    </vbox>
+</div>
